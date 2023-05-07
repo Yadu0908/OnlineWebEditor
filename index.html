@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/theme/monokai.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/css/css.min.css">
+  <link rel="shortcut icon" type="image" href="img/icon.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/addon/edit/matchbrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/css/css.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+    <p class="logo"><font color="white">Online</font> web Runner</p>
+
+    <nav class="nav__bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+    <a href="#"><button class="btn">Contect US</button></a>
+  </header>
+
+
+  <header>
+  </header>
+ <table class="main">
+   
+  <tr>
+    
+<!--1st td --> 
+    <td class="first">
+        
+
+
+      <div class="editor-container">
+        <div class="editor-header">
+          
+          <img src="img/html.png" height="48px" width="48px">
+
+          <textarea data-html >
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML CSS JS</title>
+</head>
+<body>
+<h1 id="welcome">HTML CSS JS</h1>
+<p>Welcome to HTML-CSS-JS Project.</p>
+</body>
+</html>
+</textarea>
+        </div>
+      </div>
+
+      <div class="editor-container">
+        <div class="editor-header">
+          
+            <img src="img/css.png" height="48px" width="48px">
+          
+          <textarea data-css>
+h1 {
+font-family: Impact, sans-serif;
+color: #CE5937;
+}
+         </textarea>
+        </div>
+      </div>
+      <div class="editor-container">
+        <div class="editor-header">
+         
+            <img src="img/js.png" height="48px" width="48px">
+          <textarea data-js>
+document.getElementById('welcome').innerText +=" Editors";
+          </textarea>
+        </div>
+      </div>
+      
+    
+
+
+    </td>
+    
+    <!-- 2nd td -->
+
+
+    <td class="second">
+          
+      <div>
+        <h1 id="op">Output</h1>
+        <iframe data-code></iframe>
+      </div>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <div class="button-container">
+      <button id="run">RUN</button>
+      <button id="clear">CLEAR</button>
+    </td>
+  </tr>
+
+ </table>
+  <footer>
+  </footer>
+</body>
+
+</html>
+
+<!-- 
+<div class="edit">
+
+    <div class="boxes">
+      <div class="editor-container">
+        <div class="editor-header">
+          <h1>HTML</h1>
+        </div>
+        <textarea data-html><h2>Hello World!</h2></textarea>
+      </div>
+      <div class="editor-container">
+        <div class="editor-header">
+          <h1>CSS</h1>
+          <textarea data-css></textarea>
+        </div>
+      </div>
+      <div class="editor-container">
+        <div class="editor-header">
+          <h1>JS</h1>
+          <textarea data-js></textarea>
+        </div>
+      </div>
+      
+      <div class="button-container">
+      <button id="run">RUN</button>
+      <button id="clear">CLEAR</button>
+    </div>
+    </div>
+
+    <div>
+      <iframe data-code></iframe>
+    </div>
+
+    </div> -->
